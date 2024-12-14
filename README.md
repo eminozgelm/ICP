@@ -94,7 +94,7 @@ cd beicoin
 
 ### **Prerequisites**  
 1. **Install dfx**:  
-   - [Download and install sdfx]([https://nodejs.org/](https://internetcomputer.org/docs/current/developer-docs/getting-started/install)) (LTS recommended).
+   - [Download and install dfx]([https://nodejs.org/](https://internetcomputer.org/docs/current/developer-docs/getting-started/install)) (LTS recommended).
 2. **Go to src directory and execute following commands.**
     ``` bash
    dfx start --background
