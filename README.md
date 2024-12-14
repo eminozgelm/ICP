@@ -1,5 +1,6 @@
 
-# BEICOIN 🪙  
+# ![LOGOMOGO](https://github.com/user-attachments/assets/06485807-a060-4c19-bdae-8eaa1b976e2f)
+BEICOIN 🪙  
 
 ## Who Are We?  
 - **Emin Özgür Elmalı**  
