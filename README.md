@@ -88,8 +88,8 @@ As a new student at Bei School, I was inspired by the school’s legacy of innov
 
 ### **Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/beicoin.git
-cd beicoin
+git clone https://github.com/eminozgelm/ICP.git
+cd motoko
 ```
 
 
