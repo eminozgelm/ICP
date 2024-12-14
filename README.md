@@ -85,71 +85,23 @@ As a new student at Bei School, I was inspired by the school’s legacy of innov
 
 ## **Installation Guide**  
 
-### **Prerequisites**  
-1. **Install Node.js**:  
-   - [Download and install Node.js](https://nodejs.org/) (LTS recommended).  
-2. **Install Rust**:  
-   - Follow the official Rust installation guide: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install).  
-3. **Install Solana CLI**:  
-   - Run the following command:  
-     ```bash
-     sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
-     ```
-   - Verify installation:  
-     ```bash
-     solana --version
-     ```  
-
 ### **Clone the Repository**  
 ```bash
 git clone https://github.com/your-username/beicoin.git
 cd beicoin
 ```
 
-### **Set Up Environment**  
-1. Create a `.env` file in the project root directory:  
-   ```bash
-   cp .env.example .env
-   ```
-2. Update the `.env` file with:  
-   - Solana network details (e.g., `devnet` or `mainnet`).  
-   - Private keys for deployment.  
 
-### **Install Dependencies**  
-Navigate to the project directories and install dependencies:  
-
-- **Smart Contract**:  
-  ```bash
-  cd contracts
-  npm install
-  ```
-- **Front-End**:  
-  ```bash
-  cd ../frontend
-  npm install
-  ```
-
-### **Build and Deploy Smart Contracts**  
-1. Compile the smart contracts:  
-   ```bash
-   cd contracts
-   npm run build
-   ```
-2. Deploy the contracts:  
-   ```bash
-   npm run deploy
+### **Prerequisites**  
+1. **Install dfx**:  
+   - [Download and install sdfx]([https://nodejs.org/](https://internetcomputer.org/docs/current/developer-docs/getting-started/install)) (LTS recommended).
+2. **Go to src directory and execute following commands.**
+    ``` bash
+   dfx start --background
+   dfx deploy  
    ```
 
-### **Run the Front-End Application**  
-1. Start the development server:  
-   ```bash
-   cd frontend
-   npm run start
-   ```
-2. Open your browser and visit:  
-   [http://localhost:3000](http://localhost:3000)  
 
----
 
 ## **Project Features**  
 - Token minting, transferring, and balance tracking.  
